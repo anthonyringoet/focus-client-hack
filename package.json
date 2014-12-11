@@ -1,0 +1,20 @@
+{
+  "name": "focus",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "beefy game.js:bundle.js --live"
+  },
+  "dependencies": {
+    "aabb-2d": "0.0.0",
+    "crtrdg-entity": "0.0.8",
+    "crtrdg-gameloop": "~0.0.1",
+    "crtrdg-keyboard": "~0.0.2",
+    "crtrdg-mouse": "~0.0.1",
+    "crtrdg-time": "0.0.0",
+    "inherits": "^2.0.1"
+  },
+  "devDependencies": {
+    "beefy": "~0.4.0",
+    "browserify": "~2.25.0"
+  }
+}

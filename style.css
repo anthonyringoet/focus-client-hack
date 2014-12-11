@@ -1,0 +1,39 @@
+html,
+body {
+  font: 16px/1.2 "Helvetica Neue", Helvetica, arial, sans-serif;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+  overflow: hidden;
+}
+
+canvas#game {
+  display: block;
+  margin: 0px auto;
+}
+
+input[type=submit]{
+  font-size:5rem;
+  background: white;
+  color:hotpink;
+  border:5px solid green;
+}
+
+#start{
+  position: relative;
+  z-index: 10;
+  top:20;
+  left:20;
+  cursor:pointer;
+}
+
+#overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #bada55;
+  z-index: 5;
+}
